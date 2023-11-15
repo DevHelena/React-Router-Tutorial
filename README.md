@@ -35,7 +35,7 @@ export default AppRoutes
 ### Adicionando rotas
 Para adicionar uma rota basta adicionar o compotente `<Route path='sobreMim' element={<SobreMim/>} />`
   - No atributo _path_ é passada uma _string_ que será a sua rota, portanto você pode acessar http://localhost:3000/sobreMim, e lá será renderizado o componente passado para _element_, que nesse caso foi `<SobreMim/>`
-  - Não se esqueça de importar o componente `<SobreMim/>` para o diretório `routes.js`
+  - Não se esqueça de importar o componente `<SobreMim/>` para o diretório `routes.js`  
 Ficará assim:
 ```jsx
 import { BrowserRouter, Routes, Route } from "react-router-dom"
@@ -75,13 +75,13 @@ function AppRoutes() {
   )
 }
 ```
-Neste exemplo, se um usuário tentar acessar uma rota que não seja /, /sobreMim ou qualquer outra rota definida, ele será redirecionado para a página NotFound. Isso ajuda a manter uma navegação clara e estruturada em sua aplicação.
+Neste exemplo, se um usuário tentar acessar uma rota que não seja "/", "/sobreMim" ou qualquer outra rota definida, ele será redirecionado para a página NotFound. Isso ajuda a manter uma navegação clara e estruturada em sua aplicação.
 
 ### Trabalhando com Links
 Vamos ver como acessar essas rotas por dentro do código:
-  - Nesse caso, imagine que na rona "/" (rota da tela Home) você deseja por um link que referencie a rota /sobreMim? Isso é bem simples:
+  - Nesse caso, imagine que na rota "/" (rota da tela Home) você deseja por um link que referencie a rota /sobreMim. Isso é bem simples:
   - Importe _Link_ no seu componente `<Home />`: `import { Link } from 'react-router-dom'`
-  - Englobe com `<Link>` o seu botão que irá levar a rota desejada, e adicione o parametro "to", semelhante ao "path" visto anteriormente, e preencha-o com um _string_ referenciando a rota.
+  - Englobe com `<Link>` o seu botão que irá levar à rota desejada, e adicione o parametro "to", semelhante ao "path" visto anteriormente, e preencha-o com um _string_ referenciando a rota.
 
 ```jsx
 import { Link } from 'react-router-dom'
