@@ -127,3 +127,4 @@ function AppRoutes() {
   )
 }
 ```
+Neste exemplo, Header e Footer são renderizados em todas as páginas (Home, SobreMim, NotFound), garantindo consistência visual e funcionalidade em toda a aplicação, sem a necessidade de replicar esses componentes em cada página individual.
