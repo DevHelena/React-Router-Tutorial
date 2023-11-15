@@ -104,7 +104,7 @@ Benefícios do Layout Persistente
 - Redução da Repetição de Código: Ao usar um layout persistente, você evita a necessidade de incluir o Header e o Footer em cada componente de página individualmente. Isso simplifica a manutenção, já que qualquer alteração nesses componentes é refletida em toda a aplicação.
 - Melhoria na Performance: Como o Header e o Footer são carregados uma única vez e permanecem presentes durante a navegação entre rotas, a aplicação se beneficia de uma melhor performance. Isso é especialmente notável em Single Page Applications (SPAs), onde a fluidez e a rapidez das transições de página são essenciais.
 
-Implementação no React Router
+Implementação no React Router  
 A implementação dessa funcionalidade é direta. Envolve-se o componente <Routes> com Header e Footer dentro do <BrowserRouter>. Dessa forma, eles são renderizados em todas as rotas definidas.  
 Veja como fica:
 
