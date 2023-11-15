@@ -1,12 +1,12 @@
 # Projeto Olá Mundo
-Um projeto feito especialmente para demonstrar e praticar as minhas habilidades em gerenciamento de rodas com o React Router Dom
+Um projeto feito especialmente para demonstrar e praticar as minhas habilidades em gerenciamento de rotas com o React Router Dom
 
 ## Rode o projeto
 - Este projeto foi desenvolvido em cima do _node.js_ na versão 18.16.0, então recomendo que, para uma boa experiência, tenha instalado em sua máquina esta versão ou superior!  
 **Node.js** Instalado? Vamos prosseguir...
 - Com o terminal do projeto aberto, instale as dependências com o comando `npm install`
 - Com as dependências já instaladas, basta rodar o projeto com o comando `npm start`
-- Agora, ao abrir no seu navegador a URL http://localhost:3000/ e navegar pelo projeto **Olá Mundo**
+- Agora, ao abrir no seu navegador a URL http://localhost:3000/ você pode navegar pelo projeto **Olá Mundo**
 
 ## Sobre o React Router Dom
 Aqui utilizei a **versão 6** do _React Router Dom_
